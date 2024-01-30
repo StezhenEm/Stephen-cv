@@ -1,0 +1,275 @@
+body {
+    margin: 0; 
+    padding: 10px;
+    background-color: rgb(171, 215, 171);
+    text-align: center;
+}
+
+
+nav  {
+    width: 100%;
+    height: 185px;
+    background-color: #688bdc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* added */
+}
+
+.nav-img1{
+    position: absolute; 
+    top: 1px; 
+    right: 15px; 
+}
+
+.nav-img1 img{
+    width: 145px;
+    height: auto;
+}
+
+.nav-img2{
+    position: absolute; 
+    top: 1px; 
+    left: 15px; 
+}
+
+.nav-img2 img{
+    width: 200px;
+    height: 184px;
+}
+
+
+.nav-item {
+    color: rgb(234, 217, 217);
+    text-shadow: 1px 1px 1px  black ;
+    text-align: center;
+    font-family: 'Honk';
+    font-size: 50px;
+}
+
+.nav-item:hover {
+    background-color: rgb(28, 70, 210);
+}
+
+.about-section {
+    height: 100vh;
+}
+
+.about-section h2{
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.footer-item {
+    color: white;
+    text-shadow: 1px 1px 1px  black ;
+    text-align: center;
+}
+
+.footer-item:hover {
+    background-color: antiquewhite;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.hello img{
+    border-radius: 50%;
+}
+
+.hello {
+    background-color:rgb(171, 215, 171)
+    ;
+    padding: 0%;
+}
+
+.title h2{
+    font-family: 'Sixtyfour';
+    color:blue;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+hr {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: maroon;
+    border-radius: 10px;
+}
+.about {
+    margin: 5px; 
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    gap: 20px;
+    text-align: center;
+}
+
+.languages-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 200px;
+  position: relative;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.languages-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px; /* Add rounded corners to the top-left */
+    border-top-right-radius: 10px; /* Add rounded corners to the top-right */
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+ .languages-card h3{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .languages-card ul{
+    text-align: center;
+    margin: 10 auto;
+ }
+
+ .lead-card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .lead-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px; /* Add rounded corners to the top-left */
+    border-top-right-radius: 10px; /* Add rounded corners to the top-right */
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+
+  .lead-card h3{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .lead-card ul{
+    text-align: center;
+    margin: 10 auto;
+ }
+
+  .lead-card a{
+    color: blue;
+  }
+
+  .skill-card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    position: relative;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5);
+  }
+  .skill-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px; /* Add rounded corners to the top-left */
+    border-top-right-radius: 10px; /* Add rounded corners to the top-right */
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+
+  .skill-card h3{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .skill-card ul{
+    text-align: center;
+    margin: 5 auto;
+ }
+
+
+  .skill-card dt {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .skill-card dd {
+    display: inline-block; 
+    vertical-align: middle;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3); /* create three columns of equal width */
+    grid-gap: 20px; /* set the gap between columns and rows to 20px */
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+
+  .contact-about  {
+    font-size: 40px;
+  }
+
+  .kill img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hello p, h2 {
+    font-size: 40px;
+  }
